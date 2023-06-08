@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Pawn
-  - 
+  - Resource
   - 
   - 
   - 
@@ -41,6 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Resource
+    uniqueID: 3825084949
+    locked: 0
   - name: Pawn
     uniqueID: 44640471
+    locked: 0
+  - name: UI
+    uniqueID: 573261633
     locked: 0
