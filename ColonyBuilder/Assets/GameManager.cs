@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     [Header("Resource")]
     public int woodCount;
     public int rockCount;
-     
+
+    
     private void Awake()
     {
         instance = this;

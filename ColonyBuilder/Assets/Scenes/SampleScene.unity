@@ -787,6 +787,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 924865375634270832, guid: 98262e8d1a0fda04d994e04aee8b3977, type: 3}
+      propertyPath: myState
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1183151455821972529, guid: 98262e8d1a0fda04d994e04aee8b3977, type: 3}
       propertyPath: m_Name
       value: Pawn (1)

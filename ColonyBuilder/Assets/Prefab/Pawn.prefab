@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 44640471
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 114207959, guid: 564036a2d1078fe48af4218ab74c3317, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -219,7 +219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  myAttackStateTarget: {fileID: 3839019730206645060, guid: 0bc2342a8d7c4d84ca82aa91ec725a3f, type: 3}
   myGfx: {fileID: 1183151454420788119}
   myData: {fileID: 11400000, guid: c315ac84bc34b26488f15fff295604d9, type: 2}
   isIdle: 1
   isTaskRunning: 0
+  myState: 0
