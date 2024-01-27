@@ -16,3 +16,5 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   checkRadius: 1.5
+  loot: {fileID: 7474610774652576749, guid: 4b6062a7dce16d84aafeb305ce3314a2, type: 3}
+  lootAmount: 10

@@ -15,4 +15,6 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
-  checkRadius: 1
+  checkRadius: 1.5
+  loot: {fileID: 2742495033951008264, guid: e52471ba95e13ad46bbd237cb5e5b14e, type: 3}
+  lootAmount: 5

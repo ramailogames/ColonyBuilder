@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531109462738037524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.049, y: 1.563, z: 0}
+  m_LocalPosition: {x: 0.049, y: 1.599, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_SortingLayerID: 573261633
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1850424092, guid: d8090f5fe31d2ce4e96a6c3883e3a054, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Sprite: {fileID: -1317811466, guid: b2f48cfc7215d2545bb5e0af578556ec, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -130,7 +130,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.013739347, y: 0.635173}
@@ -161,6 +161,7 @@ MonoBehaviour:
   axeUi: {fileID: 531109462738037524}
   checkPawnPos: {fileID: 531109463923038229}
   myResourceData: {fileID: 11400000, guid: 0e4c302722312444ebf311e4d0193fff, type: 2}
+  myResourceType: 0
 --- !u!1 &531109463878465635
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +233,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -469882347
-  m_SortingLayer: 2
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1744285145, guid: c572d238adb75384992ab76354615965, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

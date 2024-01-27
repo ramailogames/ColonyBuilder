@@ -12,6 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ec0d3911bd1a05419f5c5f036dbbba8, type: 3}
   m_Name: PawnBase
   m_EditorClassIdentifier: 
+  maxHealth: 100
   walkSpeed: 100
   runSpeed: 200
-  nextWayPointDistance: 0.1
+  nextWayPointDistance: 0.5
+  checkEnemyRadius: 1
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 256
+  myStrength: 20
+  whiteMat: {fileID: 2100000, guid: ffa70e319c27ba44cb331208d502adb1, type: 2}
+  lootDrop: {fileID: 2917247855928813096, guid: 414580867fd22ee499246feeefc83437, type: 3}

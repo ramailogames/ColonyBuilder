@@ -7,4 +7,6 @@ public class ResourceData : ScriptableObject
 {
     public LayerMask whatIsPlayer;
     public float checkRadius;
+    public GameObject loot;
+    public int lootAmount;
 }
